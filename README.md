@@ -61,10 +61,11 @@ anything else you could do.
 
 Two hundred exercises is a lot, and it still ends. If you want to keep going:
 
-- [Bamboo Weekly](https://www.bambooweekly.com/) — a new Pandas exercise every
-  week, built on real public data, with a full worked solution. Free.
+- [Bamboo Weekly](https://www.bambooweekly.com/) — a new Pandas problem every
+  week, built on real public data. Two of each week's questions and answers are
+  free, as are hundreds of problems in the archive.
 - [Better Developers](https://lernerpython.com/become-a-better-developer/) — a
-  Python article in your inbox every week. Also free.
+  free Python article in your inbox every week.
 - [Python Workout](https://lernerpython.com/python-workout/) — the same
   treatment for Python itself, if your Python needs the same work.
 - [LernerPython](https://lernerpython.com/) — my courses, live sessions, and
