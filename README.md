@@ -1,14 +1,79 @@
-# Jupyter notebooks for Pandas Workout (https://PandasWorkout.com/)
+# Pandas Workout
 
-These are the Jupyter notebooks for my book, Pandas Workout. The data for the exercises are stored separately, at https://files.lerner.co.il/pandas-workout-data.zip .
+Notebooks and solutions for [Pandas Workout](https://www.bambooweekly.com/pandas-workout/),
+my book of 200 exercises for becoming fluent in Pandas.
 
-Did you like the book? Please help me to spread the word, by reviewing it on Amazon (https://www.amazon.com/Pandas-Workout-Reuven-Lerner/dp/1617299723).
+Reading about Pandas teaches you what `groupby` does. It doesn't give you the
+reflex to reach for it at the moment you need it. That only comes from writing
+enough Pandas that the syntax stops being the hard part, and you can spend your
+attention on the question you are actually asking of the data.
 
-Other links that might be of interest to you:
+## What's here
 
-- "Better developers," with new articles about Python each week: https://BetterDevelopersWeekly.com/
-- "Bamboo Weekly," with Pandas puzzles based on  current events: https://BambooWeekly.com
-- My previous book, "Python Workout": https://PythonWorkout.com/
-- My YouTube channel: https://YouTube.com/reuvenlerner
-- My Twitter feed: https://Twitter.com/reuvenmlerner
-- My online courses: https://LernerPython.com
+One directory per chapter. Each exercise has two notebooks:
+
+- `Exercise NN — Title.ipynb` — the exercise and my solution, with an
+  explanation of why the solution works the way it does.
+- `Exercise NNb — Beyond the exercise.ipynb` — the follow-up questions, for
+  when you want to push a bit harder on the same data.
+
+Chapters 8 and 13 are projects rather than exercise sets: longer problems that
+pull together everything up to that point.
+
+## Getting the data
+
+The exercises work on real data sets, which live outside this repository
+because of their size:
+
+    https://files.lerner.co.il/pandas-workout-data.zip
+
+Heads up: that download is about 865 MB. Unzip it wherever you like, then adjust
+the paths at the top of each notebook to point at it.
+
+## Running the notebooks
+
+With uv:
+
+    uv add pandas jupyter
+    uv run jupyter notebook
+
+Or with pip, if that is what you already have set up:
+
+    pip install pandas jupyter
+    jupyter notebook
+
+JupyterLab works just as well, if you prefer it. Any recent version of Pandas
+will do; where an exercise depends on behavior that changed between versions,
+the notebook says so.
+
+## Getting the book
+
+- [Manning](https://www.manning.com/books/pandas-workout) — print and ebook,
+  including access to liveBook
+- [Amazon](https://www.amazon.com/Pandas-Workout-Reuven-Lerner/dp/1617299723)
+
+If the book helped you, an Amazon review genuinely does more for it than
+anything else you could do.
+
+## Keep practicing after the last exercise
+
+Two hundred exercises is a lot, and it still ends. If you want to keep going:
+
+- [Bamboo Weekly](https://www.bambooweekly.com/) — a new Pandas exercise every
+  week, built on real public data, with a full worked solution. Free.
+- [Better Developers](https://lernerpython.com/become-a-better-developer/) — a
+  Python article in your inbox every week. Also free.
+- [Python Workout](https://lernerpython.com/python-workout/) — the same
+  treatment for Python itself, if your Python needs the same work.
+- [LernerPython](https://lernerpython.com/) — my courses, live sessions, and
+  office hours.
+
+## Elsewhere
+
+- [YouTube](https://youtube.com/reuvenlerner)
+- [Bluesky](https://bsky.app/profile/lernerpython.com)
+- [Twitter/X](https://x.com/reuvenmlerner)
+- [LinkedIn](https://linkedin.com/in/reuven)
+
+Questions, corrections, or a solution you like better than mine?
+reuven@lernerpython.com — I read everything.
