@@ -51,6 +51,8 @@ the notebook says so.
 - [Manning](https://www.manning.com/books/pandas-workout) — print and ebook,
   including access to liveBook
 - [Amazon](https://www.amazon.com/Pandas-Workout-Reuven-Lerner/dp/1617299723)
+- [O'Reilly](https://learning.oreilly.com/library/view/pandas-workout/9781617299728/)
+  — included with a Learning Platform subscription
 
 If the book helped you, an Amazon review genuinely does more for it than
 anything else you could do.
